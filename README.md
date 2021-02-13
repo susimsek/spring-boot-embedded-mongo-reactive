@@ -27,8 +27,8 @@ docker-compose up -d
 * Embedded Mongodb (Dev Environment)
 * Spring Boot Web Flux
 * Problem Spring Web Flux
-* SpringDocs Openapi Web Flux Core
-* SpringDocs Openapi Web Flux Ui
+* SpringDoc Openapi Web Flux Core
+* SpringDoc Openapi Web Flux Ui
 * Spring Boot Actuator
 * Maven Jib Plugin
 * Maven Clean Plugin
@@ -37,3 +37,11 @@ docker-compose up -d
 * Lombok
 * Dev Tools
 * Spring Boot Test
+
+## SpringDoc OpenApi
+
+> You can access the SpringDoc Openapi from the following url.
+
+http://localhost:9090/api
+
+<img src="https://github.com/susimsek/spring-boot-embedded-mongo-reactive/blob/main/images/springdoc-openapi.png" alt="SpringDoc Openapi" width="100%" height="100%"/> 
