@@ -22,7 +22,7 @@ docker-compose up -d
 
 ## Used Technologies
 
-* Spring Boot 2.4.1
+* Spring Boot 2.4.2
 * Mongodb (Prod Environment)
 * Embedded Mongodb (Dev Environment)
 * Spring Boot Web Flux
