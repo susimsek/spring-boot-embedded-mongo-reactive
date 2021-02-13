@@ -30,7 +30,7 @@ public class CityServiceImpl implements CityService {
     @Override
     public Mono<CityReadDto> createCity(CityWriteDto cityWriteDto) {
         City city = cityMapper.cityWriteDtoToCity(cityWriteDto);
-        return cityRepository.save(city).map(cityMapper::cityToCityReadDto);
+        return cityRepository.insert(city).map(cityMapper::cityToCityReadDto);
     }
 
     @Override

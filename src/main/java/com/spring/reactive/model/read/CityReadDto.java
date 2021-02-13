@@ -3,6 +3,8 @@ package com.spring.reactive.model.read;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
 
+import java.util.Date;
+
 @FieldDefaults(level = AccessLevel.PRIVATE)
 @Data
 @NoArgsConstructor
@@ -15,5 +17,7 @@ public class CityReadDto {
     String name;
 
     int population;
+
+    Date createdDate;
 
 }
